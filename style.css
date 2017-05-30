@@ -1,0 +1,36 @@
+#eventreg_form .b-reg-table__row {
+    background-color: #17cbd1;
+    margin-bottom: 10px;
+}
+
+#eventreg_form .b-reg-table .b-reg-table__row_header{
+    background-color: transparent;
+    margin-bottom: -10px;
+}
+#eventreg_form .b-reg-table__cell-price {
+    display: none;
+}
+#eventreg_form .b-reg-table__plusminus_btn{
+    background-color: #fff;
+}
+
+.i-question-control {
+    border: 3px solid #17cbd1;
+}
+#eventreg_form .js-section-submit .b-pro-wiget__reg-button{
+    background-color: #177dd1 !important;
+}
+#eventreg_form .b-registration__check:last-of-type {
+    display: none;
+}
+.b-registration__section .b-registration__header {
+    color: transparent;
+}
+.b-registration__section .b-registration__header:before {
+    content: "Чтобы зарегистрироваться на это событие, заполните анкету. Информация о Вас бдет доступна только организаторам этого события,и больше никому. Поля, отмеченные звездочкой, являются обязательными";
+    display: block;
+    border: 3px solid #d1b217;
+    color: #000;
+    padding: 10px;
+    margin-bottom: -40px;
+}
